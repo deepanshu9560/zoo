@@ -20,7 +20,7 @@
 #navbar {
     display: flex;
     /* border: 2px solid red; */
-    height: 46px;
+    height: auto;
     align-items: center;
     color: white;
     position: relative;
@@ -98,7 +98,7 @@
 
 /* pet section */
 #pets {
-    /* border: 2px solid red; */
+    /* order: 2px solid red;b */
     height: 288px;
     display: flex;
     align-items: center;
@@ -107,12 +107,12 @@
 
 .pet-section {
     text-align: center;
-    text-transform: capitalize;
+    text-transform: capitalize;    
 }
 
 #pets #box {
     /* border: 2px solid red; */
-    height: 280px;
+    height: auto;
     width: 300px;
     border-radius: 27px;
     display: flex;
@@ -150,7 +150,7 @@
 }
 #pets2 #box{
      /* border: 2px solid red; */
-     height: 280px;
+     height: auto;
     width: 300px;
     border-radius: 27px;
     display: flex;
@@ -180,7 +180,7 @@
 }
 #friendly{
     /* border: 2px solid red; */
-    height: 1000px;
+    height: auto;
 }
 #friendly img{    
     width: 100%;
@@ -200,6 +200,10 @@
 }
 .clients{
     text-align: center;
+}
+#our-clients img{
+    width: 85%;
+    height: auto;
 }
 #our-clients{
     position: relative;
@@ -237,12 +241,15 @@
 }
 #details form .form-group input{
     font-size: 1.1rem;
-    width: 400px;
+    padding-left: 50px;
+    padding-right: 50px;
+    /* width: 400px; */
     text-align: center;
 }
-#details button{
-    width: 200px;
-    font-size: 1.1rem;
+#details button{    
+    padding-left: 70px;
+    padding-right: 70px;    
+    font-size: 1.0rem;
     text-align: center;
     cursor: pointer;
 }
@@ -373,3 +380,5 @@ footer{
     width: 260px;    
 }
 }  
+
+ 

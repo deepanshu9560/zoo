@@ -230,6 +230,7 @@
     align-items: center;
     background-color: black;
     color: white;
+    margin-top: 1px;
 }
 #details form .form-group{
     font-size: 1.2rem;

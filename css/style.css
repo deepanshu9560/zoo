@@ -379,6 +379,17 @@ footer{
     margin-top: 8px;
     width: 260px;    
 }
-}  
-
- 
+}
+/* ----------------------tablet and ipads----------------------------   */
+@media (min-width: 769px) and (max-width: 1023px){
+    #navbar-section p {
+        font-size: 1.4rem;
+    }
+}
+/* -----------------------destop and laptops----------------------------- */
+@media (min-width: 1024px){
+    #navbar ul li a:hover{
+    color:  black;
+    background-color: rgb(212, 212, 212);
+}
+}

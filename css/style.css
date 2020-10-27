@@ -253,3 +253,123 @@ footer{
     color: white;
     font-size: 1.1rem;
 }
+/* ---------------------moblie phone------------------- */
+@media (max-width: 768px){
+    #pets{
+        flex-direction: column;
+        margin-top:255px ;
+    }
+    .pet-section {        
+        margin-top: -17px;
+        font-size: 1.6rem;
+    }
+    #pets .box2{
+        margin: 10px;
+    }
+    #pets2{
+        flex-direction: column;
+        margin-top: 510px;
+    }
+    #pets2 .box5{
+        margin: 10px;
+    }
+    .nature {        
+        margin-top: 260px;
+        font-size: 1.6rem;
+    }
+    #navbar{
+        flex-direction: column;
+    }
+    #navbar ul li a {
+        margin-right: 50px;
+        margin-left: -39px;
+        font-size: 1.0rem;
+    }
+    #navbar-section p {
+        font-size: 0.89rem;
+    }
+    #navbar-section h1 {
+    font-size: 2.7rem;
+    } 
+    .clients{
+        font-size: 1.6rem;
+    }             
+} 
+@media (max-width: 477px){
+    #navbar ul li a {
+        margin-right: 48px;
+        margin-left: -50px;
+        font-size: 0.51rem;
+    }
+    #navbar-section h1 {
+        font-size: 2.0rem;
+    } 
+    #navbar-section p {
+        font-size: 0.52rem;
+    }    
+    .pet-section {    
+    font-size: 1.1rem;
+    margin-bottom: -44px;
+}       
+    .nature{    
+    font-size: 1.1rem;
+    margin-top: 230px;
+}       
+    .clients{    
+    font-size: 1.1rem;
+}
+    #details form .form-group input{
+    font-size: 0.80rem;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+    #details button{    
+    padding-left: 60px;
+    padding-right: 60px;    
+    font-size: 0.80rem; 
+} 
+    footer{
+    font-size: 0.73rem;
+}
+    #pets2{
+    margin-top: 432px;
+}
+    #pets #box {        
+    height: 290px;
+    width: 280px;
+}
+    #pets2 #box {
+    height: 290px;
+    width: 280px;
+}
+#pets .box1 img {
+    height: auto;
+    margin-top: 8px;
+    width: 260px;    
+}
+#pets .box2 img {
+    height: auto;
+    margin-top: 8px;
+    width: 260px;    
+}
+#pets .box3 img {
+    height: auto;
+    margin-top: 8px;
+    width: 260px;    
+}
+#pets2 .box4 img {
+    height: auto;
+    margin-top: 8px;
+    width: 260px;    
+}
+#pets2 .box5 img {
+    height: auto;
+    margin-top: 8px;
+    width: 260px;    
+}
+#pets2 .box6 img {
+    height: auto;
+    margin-top: 8px;
+    width: 260px;    
+}
+}  
